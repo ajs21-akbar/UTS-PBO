@@ -4,7 +4,7 @@
 // ============================================
 
 // ─── CLASS PENUMPANG ───────────────────────
-class Penumpang(private val nama: String, saldoAwal: Double) {
+class Penumpang(private val nama: String, saldoAwal: Dou  le) {
 
     // Data sensitif: saldo PRIVATE, tidak bisa diubah langsung dari luar
     private var saldo: Double = saldoAwal
